@@ -48,8 +48,8 @@ The application features a tabbed navigation system for a seamless user experien
 
 ## 🔗 Links
 
-- **Live Application**: [Streamlit App Link](https://your-app-link.streamlit.app) *(Replace with actual link)*
-- **GitHub Repository**: [Repository Link](https://github.com/Abhisek-desk/Password-Strength-Meter-And-Generator)
+- **Live Application**: https://password-strength-meter-and-generator01.streamlit.app/
+- **GitHub Repository**: https://github.com/Abhisek-desk/Password-Strength-Meter-And-Generator
 
 ---
 
@@ -71,3 +71,71 @@ The application features a tabbed navigation system for a seamless user experien
   Calculate Score (0 - 5)                                   Generate Random String
             |                                                         |
   Render Progress & Feedback                                Render Copyable Code Box
+
+```
+---
+
+# 📂 Project Structure
+
+```text
+Password-Strength-Meter-And-Generator/
+│
+├── app.py
+├── requirements.txt
+├── pyvenv.cfg
+├── .gitignore
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/Abhisek-desk/streamlit-utility-tools.git
+git clone https://github.com/Abhisek-desk/Password-Strength-Meter-And-Generator.git
+```
+
+Move into the project directory
+
+```bash
+cd Password-Strength-Meter-And-Generator
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 📚 Key Learnings
+
+Through this project, I gained practical experience in:
+
+- Streamlit application development
+- nteractive UI components using tabs and sliders
+- Regular expression pattern matching (re module)
+- Dynamic strength scoring and progress bar renderinglations
+- Random string generation using string and random libraries
+- Error handling and input validation in Streamlit
+- Writing clean, modular Python code
+- Building interactive security tools for web deployment
+
+---
+
+# 👨‍💻 Author
+
+## ABHISEK MISHRA 🤗
+
+- LinkedIn: www.linkedin.com/in/abhisek-mishra31
+- GitHub:https://github.com/Abhisek-desk/
